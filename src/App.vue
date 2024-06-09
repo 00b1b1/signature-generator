@@ -4,7 +4,7 @@
       <div class="container">
         <div class="inner">
           <LogoFile class="logo" />
-          <h1>Email Signature Generator</h1>
+          <h1>Generador de firmas</h1>
        </div>
       </div>
     </header>
@@ -58,7 +58,7 @@ export default {
       useCache: window.esgConfig.useCache || true,
       companies: window.esgConfig.companies || [],
       form: {
-        company: 'AdColony',
+        company: 'PB Agency',
         name: '',
         jobTitle: '',
         office: '+',

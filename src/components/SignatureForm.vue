@@ -1,8 +1,8 @@
 <template>
   <form class="form">
     <div class="field field-select">
-      <div class="field-label">Company</div>
-      <div class="field-desc">Options: AdColony, Appreciate, Digital Turbine or Fyber.</div>
+      <div class="field-label">Selecciona el logotipo</div>
+      <div class="field-desc">Options: PB Agency - Negro</div>
       <div class="field-control">
         <select v-model="form.company" autocomplete="organization">
           <option v-for="c in companies" :key="c.name" :value="c.name">{{c.name}}</option>
@@ -11,7 +11,7 @@
     </div>
 
     <div class="field field-text">
-      <div class="field-label">Full Name*</div>
+      <div class="field-label">Nombre y apellidos*</div>
       <div class="field-error" v-show="nameError" v-html="nameError"></div>
       <div class="field-control">
         <input type="text" autocomplete="name" v-model="form.name" v-on:blur="nameBlured = true;" />
@@ -19,7 +19,7 @@
     </div>
 
     <div class="field field-text">
-      <div class="field-label">Job Title*</div>
+      <div class="field-label">¿Cuál es tu puesto de trabajo?*</div>
       <div class="field-error" v-show="jobTitleError" v-html="jobTitleError"></div>
       <div class="field-control">
         <input type="text" autocomplete="organization-title" v-model="form.jobTitle" v-on:blur="jobTitleBlured = true;" />
@@ -27,7 +27,7 @@
     </div>
 
     <div class="field field-text">
-      <div class="field-label">Office Number</div>
+      <div class="field-label">Número de contacto</div>
       <div class="field-desc">Enter in the order of country code, area code, number. Use dashes between each section.</div>
       <div class="field-error" v-show="officeError" v-html="officeError"></div>
       <div class="field-control">
