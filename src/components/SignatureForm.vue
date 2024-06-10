@@ -27,7 +27,7 @@
     </div>
 
     <div class="field field-text">
-      <div class="field-label">Número de contacto</div>
+      <div class="field-label">Número de</div>
       <div class="field-desc">Enter in the order of country code, area code, number. Use dashes between each section.</div>
       <div class="field-error" v-show="officeError" v-html="officeError"></div>
       <div class="field-control">
