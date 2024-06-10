@@ -2,7 +2,7 @@
   <form class="form">
     <div class="field field-select">
       <div class="field-label">Selecciona el logotipo</div>
-      <div class="field-desc">Options: PB Agency - Negro</div>
+      <div class="field-desc">Options: Negro, Color</div>
       <div class="field-control">
         <select v-model="form.company" autocomplete="organization">
           <option v-for="c in companies" :key="c.name" :value="c.name">{{c.name}}</option>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="field field-text">
-      <div class="field-label">Número de</div>
+      <div class="field-label">Número de teléfono</div>
       <div class="field-desc">Enter in the order of country code, area code, number. Use dashes between each section.</div>
       <div class="field-error" v-show="officeError" v-html="officeError"></div>
       <div class="field-control">

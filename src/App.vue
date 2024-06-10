@@ -58,7 +58,7 @@ export default {
       useCache: window.esgConfig.useCache || true,
       companies: window.esgConfig.companies || [],
       form: {
-        company: '',
+        company: 'Color',
         name: '',
         jobTitle: '',
         office: '+',
@@ -75,7 +75,7 @@ body{
     padding: 0;
     font-size: 12px;
     line-height: 20px;
-    color: #fa0666;
+    color: #fa0666  ;
     font-weight: 300;
     background-color: #f8fbfe;
     font-family: 'Poppins', sans-serif;
@@ -129,7 +129,7 @@ ol li:last-child{
 .btn{
     font-size: 12px;
     line-height: 16px;
-    color: #f15631;
+    color: #fa0666;
     font-weight: 700;
     padding: 8px 16px;
     position: relative;
@@ -155,28 +155,28 @@ ol li:last-child{
 } */
 .primary-btn{
     color: #FFF;
-    background-color: #F15631;
+    background-color: #fa0666;
 }
 .primary-btn:hover,
 .primary-btn:active{
-    border-color: #fc7555;
-    background-color: #fc7555;
+    border-color: #fa0666;
+    background-color: #fa0666;
 }
 .secondary-btn{
-    color: #f15631;
+    color: #fa0666;
     background-color: #FFF;
 }
 .secondary-btn:hover,
 .secondary-btn:active{
-    color: #fc7555;
-    border-color: #fc7555;
+    color: #fa0666;
+    border-color: #fa0666;
 }
 
 /* Header */
 .header {
     color: #fff;
-    background-color: #163f5f;
-    background: linear-gradient(125.85deg, #214A6A 29.73%, #002848 98.42%);
+    background-color: #fa0666;
+    background: linear-gradient(125.85deg, #fa0666 29.73%, #fa0666 98.42%);
 }
 .header .inner {
     padding: 20px 0 10px;
