@@ -12,7 +12,7 @@
       <div class="container">
         <div class="inner">
           <div class="form-section">
-            <h2>Enter Details</h2>
+            <h2>Ingresa tu información</h2>
             <div class="box">
               <SignatureForm 
                 :companies="companies" 
@@ -24,7 +24,7 @@
           </div>
           <div class="preview-section">
             <div class="preview-sticky">
-              <h2>Signature Preview</h2>
+              <h2>Previsualización</h2>
               <SignaturePreview 
                 :companies="companies" 
                 :form="form"
@@ -58,7 +58,7 @@ export default {
       useCache: window.esgConfig.useCache || true,
       companies: window.esgConfig.companies || [],
       form: {
-        company: 'PB Agency',
+        company: '',
         name: '',
         jobTitle: '',
         office: '+',
@@ -75,10 +75,10 @@ body{
     padding: 0;
     font-size: 12px;
     line-height: 20px;
-    color: #002848;
+    color: #fa0666;
     font-weight: 300;
     background-color: #f8fbfe;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
