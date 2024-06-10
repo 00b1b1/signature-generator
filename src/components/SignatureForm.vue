@@ -150,7 +150,7 @@ export default {
 
       var value = this.form.name.trim();
       if ( ! value ) {
-        return 'Please fill in your name.';
+        return 'Por favor, rellena tu nombre';
       }
 
       return '';
@@ -162,7 +162,7 @@ export default {
 
       var value = this.form.jobTitle.trim();
       if ( ! value ) {
-        return 'Please fill in your job title.';
+        return 'Rellena tu posición de trabajo';
       }
 
       return '';
@@ -195,13 +195,13 @@ export default {
     },
 
     btnTitle() {
-      return this.formValid ? '' : 'Please fill up the form first.'
+      return this.formValid ? '' : 'Por favor, rellena el formulario correctamente'
     },
     copySignatureBtnText() {
-      return this.copiedSignature ? 'Copied' : 'Copy Signature'
+      return this.copiedSignature ? 'Copiado' : 'Copiar Firma'
     },
     copyHtmlBtnText() {
-      return this.copiedHtml ? 'Copied' : 'Copy Html'
+      return this.copiedHtml ? 'Copiado' : 'Copiar HTML'
     },
     formValid() {
       if ( ! this.form.name) {
