@@ -150,7 +150,7 @@ export default {
 
       var value = this.form.name.trim();
       if ( ! value ) {
-        return 'Por favor, rellena tu nombre';
+        return 'Por favor, rellena tu nombrer';
       }
 
       return '';
@@ -259,7 +259,7 @@ export default {
 .form .field-control input[type="tel"]{
     width: 100%;
     height: 44px;
-    color: #002848;
+    color: #000;
     line-height: 44px;
     font-size: 18px;
     padding: 0 15px;
@@ -268,7 +268,7 @@ export default {
     box-sizing: border-box;
     background-color: #FFF;
     border: 1px solid #CBD8EB;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 @media(max-width: 479px) {
     .form .field-control select,

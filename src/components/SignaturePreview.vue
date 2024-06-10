@@ -56,8 +56,8 @@ export default {
     return {
       separatorHeight: 64,
       colorPrimary: '#002848',
-      fontFamily: "Roboto, sans-serif",
-      fontSizeSmall: '10px',
+      fontFamily: "Inter, sans-serif",
+      fontSizeSmall: '16px',
       lineHeightSmall: '12px',
       logoUrl: '',
       logoWidth: 0,
